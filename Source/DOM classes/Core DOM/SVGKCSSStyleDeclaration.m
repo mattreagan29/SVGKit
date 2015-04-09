@@ -3,7 +3,6 @@
 #import "SVGKCSSValue.h"
 #import "SVGKCSSValueList.h"
 #import "SVGKCSSPrimitiveValue.h"
-#import <CocoaLumberjack/DDFileLogger.h>
 
 @interface SVGKCSSStyleDeclaration()
 

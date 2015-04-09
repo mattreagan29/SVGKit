@@ -10,7 +10,21 @@
 	#import <Foundation/Foundation.h>
 	#import <Cocoa/Cocoa.h>
 	#import <QuartzCore/QuartzCore.h>
-	#import <CocoaLumberjack/CocoaLumberjack.h>
+
+	//	======================================================================================= //
+	/*	CocoaLumberjack wrappers. For now we're taking the easy approach to disabling
+	 the CocoaLumberjack dependency by simply overriding the DD* macros to behave
+	 either as NOP's or as standard NSLog's (in the future these could also easily be funneled
+	 into our own logging if needed etc.). Overriding these macros shouldn't ever
+	 be an issue unless for some reason we decide to link Storyline against CocoaLumberjack
+	 in which case that solves our problem anyways and these can be removed. */
+
+	#define DDLogVerbose(frmt, ...)
+	#define DDLogInfo(frmt, ...)
+	#define DDLogTrace(frmt, ...)
+	#define DDLogWarn NSLog
+	#define DDLogError NSLog
+	//	======================================================================================= //
 
 	#define NSStringFromCGPoint(thePoint) NSStringFromPoint(thePoint)
 	#define NSStringFromCGRect(theRect) NSStringFromRect(theRect)
