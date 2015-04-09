@@ -23,7 +23,7 @@
 	#define DDLogInfo(frmt, ...)
 	#define DDLogTrace(frmt, ...)
 	#define DDLogWarn(frmt, ...)
-	#define DDLogError NSLog
+	#define DDLogError(frmt, ...)
 	//	======================================================================================= //
 
 	#import "SVGKit_logging.h"
