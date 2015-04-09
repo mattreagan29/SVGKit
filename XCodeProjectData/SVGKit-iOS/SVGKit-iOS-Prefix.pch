@@ -22,7 +22,7 @@
 	#define DDLogVerbose(frmt, ...)
 	#define DDLogInfo(frmt, ...)
 	#define DDLogTrace(frmt, ...)
-	#define DDLogWarn NSLog
+	#define DDLogWarn(frmt, ...)
 	#define DDLogError NSLog
 	//	======================================================================================= //
 
