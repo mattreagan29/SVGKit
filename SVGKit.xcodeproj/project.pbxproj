@@ -745,6 +745,8 @@
 		55F2686219B66C8E00F6410E /* TinySVGTextAreaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F2686019B66C8E00F6410E /* TinySVGTextAreaElement.m */; };
 		55F2686319B66C8E00F6410E /* TinySVGTextAreaElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F2686019B66C8E00F6410E /* TinySVGTextAreaElement.m */; };
 		55F3267A178156770064271D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F32679178156770064271D /* QuartzCore.framework */; };
+		C9F652A91AD72F9100AE5518 /* SVGKitLoggingMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F652A81AD72F9100AE5518 /* SVGKitLoggingMacros.h */; };
+		C9F652AA1AD72F9100AE5518 /* SVGKitLoggingMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F652A81AD72F9100AE5518 /* SVGKitLoggingMacros.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1197,6 +1199,7 @@
 		55F2686019B66C8E00F6410E /* TinySVGTextAreaElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinySVGTextAreaElement.m; sourceTree = "<group>"; };
 		55F32679178156770064271D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		55F3267B178156EF0064271D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C9F652A81AD72F9100AE5518 /* SVGKitLoggingMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVGKitLoggingMacros.h; path = "XCodeProjectData/SVGKit-OSX/SVGKitLoggingMacros.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1342,6 +1345,7 @@
 				5540E67717387C9F004029EF /* SVGKit-Info.plist */,
 				5540E816173881BF004029EF /* InfoPlist.strings */,
 				55C360CD178203C500BA24FA /* SVGKit_logging.h */,
+				C9F652A81AD72F9100AE5518 /* SVGKitLoggingMacros.h */,
 				5542C874193BC60C0046BB14 /* SVGKit-iOS-Prefix.pch */,
 				5540E67B17387C9F004029EF /* SVGKit-OSX-Prefix.pch */,
 				55EB3EC51970D9DC00D03713 /* SVGKit.modulemap */,
@@ -1771,6 +1775,7 @@
 				551165741970EFE300C8A63D /* SVGKExporterNSData.h in Headers */,
 				551165451970EFCB00C8A63D /* SVGUseElement.h in Headers */,
 				5511652A1970EFCB00C8A63D /* SVGElementInstanceList.h in Headers */,
+				C9F652AA1AD72F9100AE5518 /* SVGKitLoggingMacros.h in Headers */,
 				551164EB1970EFC100C8A63D /* SVGKCSSRuleList.h in Headers */,
 				551164E31970EFC100C8A63D /* SVGKComment.h in Headers */,
 				551165171970EFC100C8A63D /* SVGKStyleSheetList.h in Headers */,
@@ -1916,6 +1921,7 @@
 				5540E77117387F2B004029EF /* SVGKDocumentFragment.h in Headers */,
 				55F2685E19B66C6500F6410E /* SVGUnitTypes.h in Headers */,
 				5540E77317387F2B004029EF /* SVGKDocumentStyle.h in Headers */,
+				C9F652A91AD72F9100AE5518 /* SVGKitLoggingMacros.h in Headers */,
 				5540E77417387F2B004029EF /* SVGKDocumentType.h in Headers */,
 				5540E77617387F2B004029EF /* SVGKDOMGlobalSettings.h in Headers */,
 				5540E77717387F2B004029EF /* SVGKDOMHelperUtilities.h in Headers */,

@@ -34,7 +34,7 @@
 
 -(void) addSourceError:(NSError*) fatalError
 {
-	DDLogError(@"[%@] SVG ERROR: %@", [self class], fatalError);
+	DDLogWarn(@"[%@] SVG ERROR: %@", [self class], fatalError);
 	[self.errorsRecoverable addObject:fatalError];
 }
 
@@ -52,13 +52,13 @@
 
 -(void) addParseErrorFatal:(NSError*) fatalError
 {
-	DDLogError(@"[%@] SVG ERROR: %@", [self class], fatalError);
+	DDLogWarn(@"[%@] SVG ERROR: %@", [self class], fatalError);
 	[self.errorsFatal addObject:fatalError];
 }
 
 -(void) addSAXError:(NSError*) saxError
 {
-	DDLogError(@"[%@] SVG ERROR: %@", [self class], [saxError localizedDescription]);
+	DDLogWarn(@"[%@] SVG ERROR: %@", [self class], [saxError localizedDescription]);
 	[self.errorsFatal addObject:saxError];
 }
 
